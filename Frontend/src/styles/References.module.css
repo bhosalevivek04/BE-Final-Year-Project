@@ -1,0 +1,76 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .referencePage {
+    background: url("../assets/background4.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  /* Page Title */
+  .pageTitle {
+    text-align: center;
+    color: #22b13a;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reference Card */
+  .referenceCard {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .referenceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card Title */
+  .cardTitle {
+    color: #22b13a;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  /* Card Description */
+  .cardDescription {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  /* Button */
+  .cardButton {
+    display: inline-block;
+    background-color: #22b13a;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .cardButton:hover {
+    background-color: #1a8f2e;
+  }
+  
+  /* Responsive Styles */
+ 
+  

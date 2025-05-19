@@ -1,0 +1,127 @@
+/* Main Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+/* Card Container */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Content */
+.cardContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Avatar Styling */
+.avatar {
+  border: 2px solid #1890ff;
+  transition: transform 0.3s ease;
+}
+
+/* Avatar Hover Effect */
+.card:hover .avatar {
+  transform: scale(1.1);
+}
+
+/* Card Body */
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;  /* ADDED */
+  padding-right: 12px; /* ADDED */
+}
+
+/* Title Styling */
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Subtitle Styling */
+.cardSubtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Text Styling */
+.cardText {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Social Links */
+.cardLinks {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 10px;
+}
+
+.cardLink {
+  font-size: 1.5rem;
+  color: #0077b5;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+/* GitHub Link Color */
+.cardLink:nth-child(2) {
+  color: #333;
+}
+
+/* Social Icons Hover Effect */
+.cardLink:hover {
+  color: #ff7b00;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardBody {
+    padding-left: 12px;  /* ADDED */
+    padding-right: 12px; /* ADDED */
+  }
+}

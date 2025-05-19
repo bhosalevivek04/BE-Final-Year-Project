@@ -1,0 +1,421 @@
+State_Name,District_Name,Crop_Year,Season,Crop,Area,Production
+Maharashtra,Ahmednagar,1997,rabi,maize,98.32,292.77
+Maharashtra,Ahmednagar,1997,rabi,wheat,5.72,15.58
+Maharashtra,Ahmednagar,1997,rabi,rice,73.46,284.12
+Maharashtra,Ahmednagar,1997,rabi,cotton,8.84,9.56
+Maharashtra,Ahmednagar,1997,rabi,sugarcane,19.98,1006.71
+Maharashtra,Ahmednagar,1997,kharif,maize,24.18,71.11
+Maharashtra,Ahmednagar,1997,kharif,wheat,10.88,25.18
+Maharashtra,Ahmednagar,1997,kharif,rice,84.99,312.15
+Maharashtra,Ahmednagar,1997,kharif,cotton,29.66,31.68
+Maharashtra,Ahmednagar,1997,kharif,sugarcane,16.38,765.46
+Maharashtra,Ahmednagar,1997,whole year,maize,60.37,164.18
+Maharashtra,Ahmednagar,1997,whole year,wheat,22.15,58.97
+Maharashtra,Ahmednagar,1997,whole year,rice,64.31,274.92
+Maharashtra,Ahmednagar,1997,whole year,cotton,76.58,83.25
+Maharashtra,Ahmednagar,1997,whole year,sugarcane,73.31,3313.98
+Maharashtra,Ahmednagar,1998,rabi,maize,52.22,160.93
+Maharashtra,Ahmednagar,1998,rabi,wheat,37.57,88.64
+Maharashtra,Ahmednagar,1998,rabi,rice,80.61,343.12
+Maharashtra,Ahmednagar,1998,rabi,cotton,30.08,32.8
+Maharashtra,Ahmednagar,1998,rabi,sugarcane,59.23,3123.69
+Maharashtra,Ahmednagar,1998,kharif,maize,97.82,281.58
+Maharashtra,Ahmednagar,1998,kharif,wheat,66.42,171.83
+Maharashtra,Ahmednagar,1998,kharif,rice,95.86,392.6
+Maharashtra,Ahmednagar,1998,kharif,cotton,67.11,65.76
+Maharashtra,Ahmednagar,1998,kharif,sugarcane,76.04,3713.71
+Maharashtra,Ahmednagar,1998,whole year,maize,68.11,193.65
+Maharashtra,Ahmednagar,1998,whole year,wheat,34.14,79.42
+Maharashtra,Ahmednagar,1998,whole year,rice,41.32,152.24
+Maharashtra,Ahmednagar,1998,whole year,cotton,7.56,7.68
+Maharashtra,Ahmednagar,1998,whole year,sugarcane,66.77,3100.56
+Maharashtra,Ahmednagar,1999,rabi,maize,45.53,136.21
+Maharashtra,Ahmednagar,1999,rabi,wheat,84.32,207.91
+Maharashtra,Ahmednagar,1999,rabi,rice,81.82,308.74
+Maharashtra,Ahmednagar,1999,rabi,cotton,60.68,62.05
+Maharashtra,Ahmednagar,1999,rabi,sugarcane,41.74,2016.0
+Maharashtra,Ahmednagar,1999,kharif,maize,12.01,38.8
+Maharashtra,Ahmednagar,1999,kharif,wheat,14.81,39.32
+Maharashtra,Ahmednagar,1999,kharif,rice,19.79,77.02
+Maharashtra,Ahmednagar,1999,kharif,cotton,86.3,84.76
+Maharashtra,Ahmednagar,1999,kharif,sugarcane,8.22,421.46
+Maharashtra,Ahmednagar,1999,whole year,maize,63.76,174.25
+Maharashtra,Ahmednagar,1999,whole year,wheat,97.44,248.83
+Maharashtra,Ahmednagar,1999,whole year,rice,94.96,357.29
+Maharashtra,Ahmednagar,1999,whole year,cotton,56.53,55.2
+Maharashtra,Ahmednagar,1999,whole year,sugarcane,3.56,192.05
+Maharashtra,Ahmednagar,2000,rabi,maize,39.08,115.95
+Maharashtra,Ahmednagar,2000,rabi,wheat,65.06,150.56
+Maharashtra,Ahmednagar,2000,rabi,rice,56.34,229.68
+Maharashtra,Ahmednagar,2000,rabi,cotton,2.05,1.93
+Maharashtra,Ahmednagar,2000,rabi,sugarcane,98.64,4487.91
+Maharashtra,Ahmednagar,2000,kharif,maize,28.24,84.73
+Maharashtra,Ahmednagar,2000,kharif,wheat,90.65,233.76
+Maharashtra,Ahmednagar,2000,kharif,rice,57.85,228.36
+Maharashtra,Ahmednagar,2000,kharif,cotton,24.1,23.66
+Maharashtra,Ahmednagar,2000,kharif,sugarcane,10.36,552.67
+Maharashtra,Ahmednagar,2000,whole year,maize,34.29,112.84
+Maharashtra,Ahmednagar,2000,whole year,wheat,11.13,29.11
+Maharashtra,Ahmednagar,2000,whole year,rice,74.44,288.16
+Maharashtra,Ahmednagar,2000,whole year,cotton,75.69,71.68
+Maharashtra,Ahmednagar,2000,whole year,sugarcane,20.2,923.32
+Maharashtra,Ahmednagar,2001,rabi,maize,62.29,187.22
+Maharashtra,Ahmednagar,2001,rabi,wheat,76.68,210.64
+Maharashtra,Ahmednagar,2001,rabi,rice,23.78,102.83
+Maharashtra,Ahmednagar,2001,rabi,cotton,72.99,71.34
+Maharashtra,Ahmednagar,2001,rabi,sugarcane,31.88,1533.87
+Maharashtra,Ahmednagar,2001,kharif,maize,48.29,138.06
+Maharashtra,Ahmednagar,2001,kharif,wheat,95.97,231.38
+Maharashtra,Ahmednagar,2001,kharif,rice,77.54,316.59
+Maharashtra,Ahmednagar,2001,kharif,cotton,95.51,90.89
+Maharashtra,Ahmednagar,2001,kharif,sugarcane,50.08,2648.31
+Maharashtra,Ahmednagar,2001,whole year,maize,1.87,5.71
+Maharashtra,Ahmednagar,2001,whole year,wheat,69.57,188.14
+Maharashtra,Ahmednagar,2001,whole year,rice,1.02,3.72
+Maharashtra,Ahmednagar,2001,whole year,cotton,89.12,84.16
+Maharashtra,Ahmednagar,2001,whole year,sugarcane,82.83,3758.16
+Maharashtra,Ahmednagar,2002,rabi,maize,35.48,107.91
+Maharashtra,Ahmednagar,2002,rabi,wheat,87.9,235.26
+Maharashtra,Ahmednagar,2002,rabi,rice,7.12,27.09
+Maharashtra,Ahmednagar,2002,rabi,cotton,20.08,20.04
+Maharashtra,Ahmednagar,2002,rabi,sugarcane,19.33,940.34
+Maharashtra,Ahmednagar,2002,kharif,maize,91.4,288.9
+Maharashtra,Ahmednagar,2002,kharif,wheat,48.06,114.32
+Maharashtra,Ahmednagar,2002,kharif,rice,53.45,229.68
+Maharashtra,Ahmednagar,2002,kharif,cotton,6.59,6.32
+Maharashtra,Ahmednagar,2002,kharif,sugarcane,39.85,2023.26
+Maharashtra,Ahmednagar,2002,whole year,maize,13.96,42.84
+Maharashtra,Ahmednagar,2002,whole year,wheat,97.02,253.2
+Maharashtra,Ahmednagar,2002,whole year,rice,92.78,371.64
+Maharashtra,Ahmednagar,2002,whole year,cotton,35.32,31.82
+Maharashtra,Ahmednagar,2002,whole year,sugarcane,67.59,3677.23
+Maharashtra,Ahmednagar,2003,rabi,maize,33.77,95.31
+Maharashtra,Ahmednagar,2003,rabi,wheat,70.83,189.18
+Maharashtra,Ahmednagar,2003,rabi,rice,97.79,369.67
+Maharashtra,Ahmednagar,2003,rabi,cotton,56.44,57.68
+Maharashtra,Ahmednagar,2003,rabi,sugarcane,2.6,128.84
+Maharashtra,Ahmednagar,2003,kharif,maize,50.61,156.08
+Maharashtra,Ahmednagar,2003,kharif,wheat,6.37,14.96
+Maharashtra,Ahmednagar,2003,kharif,rice,10.04,43.09
+Maharashtra,Ahmednagar,2003,kharif,cotton,26.6,26.75
+Maharashtra,Ahmednagar,2003,kharif,sugarcane,4.98,258.82
+Maharashtra,Ahmednagar,2003,whole year,maize,51.57,164.04
+Maharashtra,Ahmednagar,2003,whole year,wheat,3.2,7.77
+Maharashtra,Ahmednagar,2003,whole year,rice,50.97,186.3
+Maharashtra,Ahmednagar,2003,whole year,cotton,43.59,40.45
+Maharashtra,Ahmednagar,2003,whole year,sugarcane,51.3,2776.78
+Maharashtra,Ahmednagar,2004,rabi,maize,84.19,240.01
+Maharashtra,Ahmednagar,2004,rabi,wheat,91.66,235.57
+Maharashtra,Ahmednagar,2004,rabi,rice,96.19,375.11
+Maharashtra,Ahmednagar,2004,rabi,cotton,64.58,69.91
+Maharashtra,Ahmednagar,2004,rabi,sugarcane,98.23,4605.8
+Maharashtra,Ahmednagar,2004,kharif,maize,83.5,271.1
+Maharashtra,Ahmednagar,2004,kharif,wheat,22.95,52.19
+Maharashtra,Ahmednagar,2004,kharif,rice,59.31,219.67
+Maharashtra,Ahmednagar,2004,kharif,cotton,32.66,29.85
+Maharashtra,Ahmednagar,2004,kharif,sugarcane,94.83,5086.62
+Maharashtra,Ahmednagar,2004,whole year,maize,45.28,125.16
+Maharashtra,Ahmednagar,2004,whole year,wheat,93.24,236.06
+Maharashtra,Ahmednagar,2004,whole year,rice,15.52,61.64
+Maharashtra,Ahmednagar,2004,whole year,cotton,3.38,3.23
+Maharashtra,Ahmednagar,2004,whole year,sugarcane,86.18,3996.15
+Maharashtra,Ahmednagar,2005,rabi,maize,95.69,290.52
+Maharashtra,Ahmednagar,2005,rabi,wheat,62.81,160.78
+Maharashtra,Ahmednagar,2005,rabi,rice,19.44,76.74
+Maharashtra,Ahmednagar,2005,rabi,cotton,36.53,37.47
+Maharashtra,Ahmednagar,2005,rabi,sugarcane,89.77,4248.18
+Maharashtra,Ahmednagar,2005,kharif,maize,23.46,68.09
+Maharashtra,Ahmednagar,2005,kharif,wheat,79.04,184.06
+Maharashtra,Ahmednagar,2005,kharif,rice,95.89,351.9
+Maharashtra,Ahmednagar,2005,kharif,cotton,80.89,81.28
+Maharashtra,Ahmednagar,2005,kharif,sugarcane,18.02,958.13
+Maharashtra,Ahmednagar,2005,whole year,maize,44.06,128.63
+Maharashtra,Ahmednagar,2005,whole year,wheat,53.93,133.58
+Maharashtra,Ahmednagar,2005,whole year,rice,43.97,191.45
+Maharashtra,Ahmednagar,2005,whole year,cotton,49.62,53.32
+Maharashtra,Ahmednagar,2005,whole year,sugarcane,44.33,2021.16
+Maharashtra,Ahmednagar,2006,rabi,maize,23.89,71.21
+Maharashtra,Ahmednagar,2006,rabi,wheat,51.63,139.74
+Maharashtra,Ahmednagar,2006,rabi,rice,68.22,266.01
+Maharashtra,Ahmednagar,2006,rabi,cotton,27.26,29.42
+Maharashtra,Ahmednagar,2006,rabi,sugarcane,81.22,4347.96
+Maharashtra,Ahmednagar,2006,kharif,maize,69.62,220.29
+Maharashtra,Ahmednagar,2006,kharif,wheat,55.46,131.44
+Maharashtra,Ahmednagar,2006,kharif,rice,33.69,137.77
+Maharashtra,Ahmednagar,2006,kharif,cotton,79.05,80.98
+Maharashtra,Ahmednagar,2006,kharif,sugarcane,95.56,4672.38
+Maharashtra,Ahmednagar,2006,whole year,maize,77.35,254.67
+Maharashtra,Ahmednagar,2006,whole year,wheat,65.12,176.53
+Maharashtra,Ahmednagar,2006,whole year,rice,93.36,349.1
+Maharashtra,Ahmednagar,2006,whole year,cotton,82.53,86.16
+Maharashtra,Ahmednagar,2006,whole year,sugarcane,2.18,107.55
+Maharashtra,Ahmednagar,2007,rabi,maize,39.44,107.51
+Maharashtra,Ahmednagar,2007,rabi,wheat,16.41,40.5
+Maharashtra,Ahmednagar,2007,rabi,rice,5.47,21.41
+Maharashtra,Ahmednagar,2007,rabi,cotton,57.63,56.77
+Maharashtra,Ahmednagar,2007,rabi,sugarcane,28.87,1374.73
+Maharashtra,Ahmednagar,2007,kharif,maize,40.16,110.76
+Maharashtra,Ahmednagar,2007,kharif,wheat,14.65,39.33
+Maharashtra,Ahmednagar,2007,kharif,rice,17.22,73.95
+Maharashtra,Ahmednagar,2007,kharif,cotton,92.21,83.41
+Maharashtra,Ahmednagar,2007,kharif,sugarcane,68.63,3204.03
+Maharashtra,Ahmednagar,2007,whole year,maize,89.52,269.39
+Maharashtra,Ahmednagar,2007,whole year,wheat,35.88,94.57
+Maharashtra,Ahmednagar,2007,whole year,rice,30.45,117.4
+Maharashtra,Ahmednagar,2007,whole year,cotton,61.38,59.11
+Maharashtra,Ahmednagar,2007,whole year,sugarcane,57.41,2734.7
+Maharashtra,Ahmednagar,2008,rabi,maize,28.96,82.84
+Maharashtra,Ahmednagar,2008,rabi,wheat,22.4,59.95
+Maharashtra,Ahmednagar,2008,rabi,rice,87.93,352.89
+Maharashtra,Ahmednagar,2008,rabi,cotton,23.01,21.17
+Maharashtra,Ahmednagar,2008,rabi,sugarcane,4.86,262.28
+Maharashtra,Ahmednagar,2008,kharif,maize,75.72,209.03
+Maharashtra,Ahmednagar,2008,kharif,wheat,41.01,100.82
+Maharashtra,Ahmednagar,2008,kharif,rice,67.3,287.46
+Maharashtra,Ahmednagar,2008,kharif,cotton,73.77,70.01
+Maharashtra,Ahmednagar,2008,kharif,sugarcane,51.15,2729.54
+Maharashtra,Ahmednagar,2008,whole year,maize,75.6,204.27
+Maharashtra,Ahmednagar,2008,whole year,wheat,1.45,3.87
+Maharashtra,Ahmednagar,2008,whole year,rice,30.81,112.07
+Maharashtra,Ahmednagar,2008,whole year,cotton,89.5,85.64
+Maharashtra,Ahmednagar,2008,whole year,sugarcane,44.72,2266.15
+Maharashtra,Ahmednagar,2009,rabi,maize,5.1,14.34
+Maharashtra,Ahmednagar,2009,rabi,wheat,80.95,206.64
+Maharashtra,Ahmednagar,2009,rabi,rice,68.6,258.19
+Maharashtra,Ahmednagar,2009,rabi,cotton,28.03,29.56
+Maharashtra,Ahmednagar,2009,rabi,sugarcane,49.35,2394.99
+Maharashtra,Ahmednagar,2009,kharif,maize,82.57,258.49
+Maharashtra,Ahmednagar,2009,kharif,wheat,54.49,143.66
+Maharashtra,Ahmednagar,2009,kharif,rice,65.54,236.07
+Maharashtra,Ahmednagar,2009,kharif,cotton,47.16,51.62
+Maharashtra,Ahmednagar,2009,kharif,sugarcane,7.64,399.79
+Maharashtra,Ahmednagar,2009,whole year,maize,36.19,102.35
+Maharashtra,Ahmednagar,2009,whole year,wheat,97.24,221.21
+Maharashtra,Ahmednagar,2009,whole year,rice,68.61,280.72
+Maharashtra,Ahmednagar,2009,whole year,cotton,45.19,41.57
+Maharashtra,Ahmednagar,2009,whole year,sugarcane,95.09,4841.26
+Maharashtra,Ahmednagar,2010,rabi,maize,96.1,314.34
+Maharashtra,Ahmednagar,2010,rabi,wheat,35.51,90.73
+Maharashtra,Ahmednagar,2010,rabi,rice,73.69,278.41
+Maharashtra,Ahmednagar,2010,rabi,cotton,32.87,34.25
+Maharashtra,Ahmednagar,2010,rabi,sugarcane,18.16,907.06
+Maharashtra,Ahmednagar,2010,kharif,maize,7.83,22.63
+Maharashtra,Ahmednagar,2010,kharif,wheat,89.82,240.14
+Maharashtra,Ahmednagar,2010,kharif,rice,41.99,160.11
+Maharashtra,Ahmednagar,2010,kharif,cotton,66.62,70.98
+Maharashtra,Ahmednagar,2010,kharif,sugarcane,18.54,955.34
+Maharashtra,Ahmednagar,2010,whole year,maize,66.23,185.79
+Maharashtra,Ahmednagar,2010,whole year,wheat,5.87,13.66
+Maharashtra,Ahmednagar,2010,whole year,rice,39.96,157.32
+Maharashtra,Ahmednagar,2010,whole year,cotton,80.16,74.1
+Maharashtra,Ahmednagar,2010,whole year,sugarcane,86.1,4196.55
+Maharashtra,Ahmednagar,2011,rabi,maize,90.63,273.41
+Maharashtra,Ahmednagar,2011,rabi,wheat,23.93,63.53
+Maharashtra,Ahmednagar,2011,rabi,rice,62.49,274.7
+Maharashtra,Ahmednagar,2011,rabi,cotton,78.33,79.49
+Maharashtra,Ahmednagar,2011,rabi,sugarcane,72.66,3996.01
+Maharashtra,Ahmednagar,2011,kharif,maize,93.64,268.47
+Maharashtra,Ahmednagar,2011,kharif,wheat,27.08,66.25
+Maharashtra,Ahmednagar,2011,kharif,rice,69.22,293.94
+Maharashtra,Ahmednagar,2011,kharif,cotton,65.03,65.99
+Maharashtra,Ahmednagar,2011,kharif,sugarcane,28.29,1290.36
+Maharashtra,Ahmednagar,2011,whole year,maize,60.44,193.37
+Maharashtra,Ahmednagar,2011,whole year,wheat,17.06,44.85
+Maharashtra,Ahmednagar,2011,whole year,rice,75.95,306.39
+Maharashtra,Ahmednagar,2011,whole year,cotton,62.5,61.87
+Maharashtra,Ahmednagar,2011,whole year,sugarcane,77.3,3572.0
+Maharashtra,Ahmednagar,2012,rabi,maize,99.26,315.61
+Maharashtra,Ahmednagar,2012,rabi,wheat,27.1,69.7
+Maharashtra,Ahmednagar,2012,rabi,rice,54.94,236.25
+Maharashtra,Ahmednagar,2012,rabi,cotton,40.78,41.05
+Maharashtra,Ahmednagar,2012,rabi,sugarcane,45.73,2154.86
+Maharashtra,Ahmednagar,2012,kharif,maize,11.05,31.0
+Maharashtra,Ahmednagar,2012,kharif,wheat,7.91,21.3
+Maharashtra,Ahmednagar,2012,kharif,rice,19.17,82.22
+Maharashtra,Ahmednagar,2012,kharif,cotton,47.4,50.32
+Maharashtra,Ahmednagar,2012,kharif,sugarcane,33.97,1536.69
+Maharashtra,Ahmednagar,2012,whole year,maize,23.82,64.66
+Maharashtra,Ahmednagar,2012,whole year,wheat,10.32,27.5
+Maharashtra,Ahmednagar,2012,whole year,rice,43.84,177.68
+Maharashtra,Ahmednagar,2012,whole year,cotton,44.41,48.01
+Maharashtra,Ahmednagar,2012,whole year,sugarcane,61.93,3056.25
+Maharashtra,Ahmednagar,2013,rabi,maize,26.74,82.55
+Maharashtra,Ahmednagar,2013,rabi,wheat,31.84,80.57
+Maharashtra,Ahmednagar,2013,rabi,rice,75.69,317.62
+Maharashtra,Ahmednagar,2013,rabi,cotton,67.92,65.61
+Maharashtra,Ahmednagar,2013,rabi,sugarcane,95.28,5059.61
+Maharashtra,Ahmednagar,2013,kharif,maize,20.52,64.1
+Maharashtra,Ahmednagar,2013,kharif,wheat,74.23,189.42
+Maharashtra,Ahmednagar,2013,kharif,rice,87.84,384.06
+Maharashtra,Ahmednagar,2013,kharif,cotton,4.31,4.42
+Maharashtra,Ahmednagar,2013,kharif,sugarcane,12.73,696.85
+Maharashtra,Ahmednagar,2013,whole year,maize,69.72,200.45
+Maharashtra,Ahmednagar,2013,whole year,wheat,33.09,85.24
+Maharashtra,Ahmednagar,2013,whole year,rice,98.06,375.42
+Maharashtra,Ahmednagar,2013,whole year,cotton,66.87,69.38
+Maharashtra,Ahmednagar,2013,whole year,sugarcane,92.42,4451.41
+Maharashtra,Ahmednagar,2014,rabi,maize,90.25,276.56
+Maharashtra,Ahmednagar,2014,rabi,wheat,82.93,212.38
+Maharashtra,Ahmednagar,2014,rabi,rice,76.89,299.29
+Maharashtra,Ahmednagar,2014,rabi,cotton,3.33,3.52
+Maharashtra,Ahmednagar,2014,rabi,sugarcane,32.01,1567.52
+Maharashtra,Ahmednagar,2014,kharif,maize,2.6,7.68
+Maharashtra,Ahmednagar,2014,kharif,wheat,61.17,168.15
+Maharashtra,Ahmednagar,2014,kharif,rice,41.73,163.55
+Maharashtra,Ahmednagar,2014,kharif,cotton,78.15,76.09
+Maharashtra,Ahmednagar,2014,kharif,sugarcane,26.66,1452.14
+Maharashtra,Ahmednagar,2014,whole year,maize,87.77,244.21
+Maharashtra,Ahmednagar,2014,whole year,wheat,71.64,162.78
+Maharashtra,Ahmednagar,2014,whole year,rice,77.99,292.4
+Maharashtra,Ahmednagar,2014,whole year,cotton,28.9,30.91
+Maharashtra,Ahmednagar,2014,whole year,sugarcane,14.32,705.22
+Maharashtra,Ahmednagar,2015,rabi,maize,93.73,304.45
+Maharashtra,Ahmednagar,2015,rabi,wheat,96.99,231.0
+Maharashtra,Ahmednagar,2015,rabi,rice,67.72,264.42
+Maharashtra,Ahmednagar,2015,rabi,cotton,4.92,4.73
+Maharashtra,Ahmednagar,2015,rabi,sugarcane,13.59,669.23
+Maharashtra,Ahmednagar,2015,kharif,maize,23.09,69.52
+Maharashtra,Ahmednagar,2015,kharif,wheat,52.88,132.5
+Maharashtra,Ahmednagar,2015,kharif,rice,97.32,389.21
+Maharashtra,Ahmednagar,2015,kharif,cotton,61.09,66.14
+Maharashtra,Ahmednagar,2015,kharif,sugarcane,91.68,4349.32
+Maharashtra,Ahmednagar,2015,whole year,maize,20.65,59.73
+Maharashtra,Ahmednagar,2015,whole year,wheat,81.17,193.13
+Maharashtra,Ahmednagar,2015,whole year,rice,68.64,295.98
+Maharashtra,Ahmednagar,2015,whole year,cotton,24.78,24.13
+Maharashtra,Ahmednagar,2015,whole year,sugarcane,18.17,981.41
+Maharashtra,Ahmednagar,2016,rabi,maize,47.54,145.69
+Maharashtra,Ahmednagar,2016,rabi,wheat,34.48,85.47
+Maharashtra,Ahmednagar,2016,rabi,rice,25.31,96.02
+Maharashtra,Ahmednagar,2016,rabi,cotton,52.3,56.19
+Maharashtra,Ahmednagar,2016,rabi,sugarcane,70.22,3555.22
+Maharashtra,Ahmednagar,2016,kharif,maize,77.0,231.76
+Maharashtra,Ahmednagar,2016,kharif,wheat,62.94,147.97
+Maharashtra,Ahmednagar,2016,kharif,rice,70.81,284.27
+Maharashtra,Ahmednagar,2016,kharif,cotton,87.74,87.23
+Maharashtra,Ahmednagar,2016,kharif,sugarcane,91.23,4450.61
+Maharashtra,Ahmednagar,2016,whole year,maize,87.64,285.56
+Maharashtra,Ahmednagar,2016,whole year,wheat,22.13,55.93
+Maharashtra,Ahmednagar,2016,whole year,rice,32.83,130.53
+Maharashtra,Ahmednagar,2016,whole year,cotton,17.14,16.83
+Maharashtra,Ahmednagar,2016,whole year,sugarcane,43.61,2139.78
+Maharashtra,Ahmednagar,2017,rabi,maize,50.88,158.4
+Maharashtra,Ahmednagar,2017,rabi,wheat,86.91,237.55
+Maharashtra,Ahmednagar,2017,rabi,rice,1.42,5.24
+Maharashtra,Ahmednagar,2017,rabi,cotton,68.05,62.87
+Maharashtra,Ahmednagar,2017,rabi,sugarcane,88.12,4669.08
+Maharashtra,Ahmednagar,2017,kharif,maize,88.42,267.99
+Maharashtra,Ahmednagar,2017,kharif,wheat,69.64,163.65
+Maharashtra,Ahmednagar,2017,kharif,rice,33.79,148.03
+Maharashtra,Ahmednagar,2017,kharif,cotton,19.62,19.55
+Maharashtra,Ahmednagar,2017,kharif,sugarcane,62.86,2861.57
+Maharashtra,Ahmednagar,2017,whole year,maize,81.43,242.71
+Maharashtra,Ahmednagar,2017,whole year,wheat,80.64,185.85
+Maharashtra,Ahmednagar,2017,whole year,rice,40.7,171.88
+Maharashtra,Ahmednagar,2017,whole year,cotton,71.05,69.72
+Maharashtra,Ahmednagar,2017,whole year,sugarcane,11.38,572.54
+Maharashtra,Ahmednagar,2018,rabi,maize,14.71,41.22
+Maharashtra,Ahmednagar,2018,rabi,wheat,92.78,210.14
+Maharashtra,Ahmednagar,2018,rabi,rice,85.52,311.87
+Maharashtra,Ahmednagar,2018,rabi,cotton,35.14,36.06
+Maharashtra,Ahmednagar,2018,rabi,sugarcane,89.96,4073.31
+Maharashtra,Ahmednagar,2018,kharif,maize,54.48,159.58
+Maharashtra,Ahmednagar,2018,kharif,wheat,73.24,188.15
+Maharashtra,Ahmednagar,2018,kharif,rice,26.56,114.3
+Maharashtra,Ahmednagar,2018,kharif,cotton,85.47,86.95
+Maharashtra,Ahmednagar,2018,kharif,sugarcane,45.88,2287.78
+Maharashtra,Ahmednagar,2018,whole year,maize,3.98,12.66
+Maharashtra,Ahmednagar,2018,whole year,wheat,86.81,229.26
+Maharashtra,Ahmednagar,2018,whole year,rice,67.45,249.12
+Maharashtra,Ahmednagar,2018,whole year,cotton,33.26,30.33
+Maharashtra,Ahmednagar,2018,whole year,sugarcane,70.23,3768.85
+Maharashtra,Ahmednagar,2019,rabi,maize,4.98,14.53
+Maharashtra,Ahmednagar,2019,rabi,wheat,20.17,49.28
+Maharashtra,Ahmednagar,2019,rabi,rice,67.34,250.23
+Maharashtra,Ahmednagar,2019,rabi,cotton,87.82,81.59
+Maharashtra,Ahmednagar,2019,rabi,sugarcane,94.27,4329.75
+Maharashtra,Ahmednagar,2019,kharif,maize,81.78,232.84
+Maharashtra,Ahmednagar,2019,kharif,wheat,76.8,196.01
+Maharashtra,Ahmednagar,2019,kharif,rice,94.87,411.63
+Maharashtra,Ahmednagar,2019,kharif,cotton,74.11,67.48
+Maharashtra,Ahmednagar,2019,kharif,sugarcane,75.78,3494.9
+Maharashtra,Ahmednagar,2019,whole year,maize,63.78,188.56
+Maharashtra,Ahmednagar,2019,whole year,wheat,32.07,88.13
+Maharashtra,Ahmednagar,2019,whole year,rice,68.0,267.83
+Maharashtra,Ahmednagar,2019,whole year,cotton,32.85,36.06
+Maharashtra,Ahmednagar,2019,whole year,sugarcane,32.0,1651.18
+Maharashtra,Ahmednagar,2020,rabi,maize,62.76,191.81
+Maharashtra,Ahmednagar,2020,rabi,wheat,47.87,128.11
+Maharashtra,Ahmednagar,2020,rabi,rice,49.84,215.14
+Maharashtra,Ahmednagar,2020,rabi,cotton,57.08,60.08
+Maharashtra,Ahmednagar,2020,rabi,sugarcane,79.42,4130.02
+Maharashtra,Ahmednagar,2020,kharif,maize,20.15,59.59
+Maharashtra,Ahmednagar,2020,kharif,wheat,34.44,80.12
+Maharashtra,Ahmednagar,2020,kharif,rice,94.38,393.82
+Maharashtra,Ahmednagar,2020,kharif,cotton,90.0,98.95
+Maharashtra,Ahmednagar,2020,kharif,sugarcane,57.36,3104.15
+Maharashtra,Ahmednagar,2020,whole year,maize,9.64,31.58
+Maharashtra,Ahmednagar,2020,whole year,wheat,58.6,145.66
+Maharashtra,Ahmednagar,2020,whole year,rice,33.13,125.93
+Maharashtra,Ahmednagar,2020,whole year,cotton,75.99,72.35
+Maharashtra,Ahmednagar,2020,whole year,sugarcane,24.61,1267.4
+Maharashtra,Ahmednagar,2021,rabi,maize,1.68,5.26
+Maharashtra,Ahmednagar,2021,rabi,wheat,11.04,29.51
+Maharashtra,Ahmednagar,2021,rabi,rice,71.59,274.03
+Maharashtra,Ahmednagar,2021,rabi,cotton,64.69,59.58
+Maharashtra,Ahmednagar,2021,rabi,sugarcane,25.51,1339.1
+Maharashtra,Ahmednagar,2021,kharif,maize,1.29,3.7
+Maharashtra,Ahmednagar,2021,kharif,wheat,54.8,136.82
+Maharashtra,Ahmednagar,2021,kharif,rice,33.6,138.15
+Maharashtra,Ahmednagar,2021,kharif,cotton,64.13,65.24
+Maharashtra,Ahmednagar,2021,kharif,sugarcane,8.75,473.87
+Maharashtra,Ahmednagar,2021,whole year,maize,58.24,170.09
+Maharashtra,Ahmednagar,2021,whole year,wheat,91.39,217.84
+Maharashtra,Ahmednagar,2021,whole year,rice,5.0,19.29
+Maharashtra,Ahmednagar,2021,whole year,cotton,42.56,42.08
+Maharashtra,Ahmednagar,2021,whole year,sugarcane,22.8,1031.08
+Maharashtra,Ahmednagar,2022,rabi,maize,81.31,230.63
+Maharashtra,Ahmednagar,2022,rabi,wheat,96.98,258.37
+Maharashtra,Ahmednagar,2022,rabi,rice,48.18,187.3
+Maharashtra,Ahmednagar,2022,rabi,cotton,6.45,6.03
+Maharashtra,Ahmednagar,2022,rabi,sugarcane,24.29,1308.17
+Maharashtra,Ahmednagar,2022,kharif,maize,7.4,20.7
+Maharashtra,Ahmednagar,2022,kharif,wheat,26.09,59.61
+Maharashtra,Ahmednagar,2022,kharif,rice,89.26,332.33
+Maharashtra,Ahmednagar,2022,kharif,cotton,47.61,48.93
+Maharashtra,Ahmednagar,2022,kharif,sugarcane,19.39,900.16
+Maharashtra,Ahmednagar,2022,whole year,maize,27.88,88.24
+Maharashtra,Ahmednagar,2022,whole year,wheat,43.7,100.47
+Maharashtra,Ahmednagar,2022,whole year,rice,99.53,437.1
+Maharashtra,Ahmednagar,2022,whole year,cotton,24.18,24.03
+Maharashtra,Ahmednagar,2022,whole year,sugarcane,76.52,3987.68
+Maharashtra,Ahmednagar,2023,rabi,maize,82.04,249.15
+Maharashtra,Ahmednagar,2023,rabi,wheat,78.88,194.79
+Maharashtra,Ahmednagar,2023,rabi,rice,37.93,141.17
+Maharashtra,Ahmednagar,2023,rabi,cotton,7.82,7.37
+Maharashtra,Ahmednagar,2023,rabi,sugarcane,22.63,1131.23
+Maharashtra,Ahmednagar,2023,kharif,maize,59.57,180.57
+Maharashtra,Ahmednagar,2023,kharif,wheat,7.47,18.76
+Maharashtra,Ahmednagar,2023,kharif,rice,78.49,317.95
+Maharashtra,Ahmednagar,2023,kharif,cotton,95.81,87.79
+Maharashtra,Ahmednagar,2023,kharif,sugarcane,62.62,3147.57
+Maharashtra,Ahmednagar,2023,whole year,maize,41.38,131.05
+Maharashtra,Ahmednagar,2023,whole year,wheat,22.16,50.32
+Maharashtra,Ahmednagar,2023,whole year,rice,85.62,324.02
+Maharashtra,Ahmednagar,2023,whole year,cotton,80.29,85.28
+Maharashtra,Ahmednagar,2023,whole year,sugarcane,9.61,521.59
+Maharashtra,Ahmednagar,2024,rabi,maize,82.97,257.95
+Maharashtra,Ahmednagar,2024,rabi,wheat,56.61,131.62
+Maharashtra,Ahmednagar,2024,rabi,rice,10.39,41.58
+Maharashtra,Ahmednagar,2024,rabi,cotton,58.95,53.8
+Maharashtra,Ahmednagar,2024,rabi,sugarcane,37.68,1718.21
+Maharashtra,Ahmednagar,2024,kharif,maize,64.02,189.6
+Maharashtra,Ahmednagar,2024,kharif,wheat,47.25,119.98
+Maharashtra,Ahmednagar,2024,kharif,rice,9.37,35.62
+Maharashtra,Ahmednagar,2024,kharif,cotton,1.21,1.22
+Maharashtra,Ahmednagar,2024,kharif,sugarcane,74.99,3925.09
+Maharashtra,Ahmednagar,2024,whole year,maize,18.96,59.06
+Maharashtra,Ahmednagar,2024,whole year,wheat,17.52,41.61
+Maharashtra,Ahmednagar,2024,whole year,rice,48.82,204.9
+Maharashtra,Ahmednagar,2024,whole year,cotton,76.92,84.08
+Maharashtra,Ahmednagar,2024,whole year,sugarcane,99.73,4806.96

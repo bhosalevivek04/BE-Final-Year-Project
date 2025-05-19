@@ -1,0 +1,269 @@
+State_Name,District_Name,Crop_Year,Season,Crop,Area,Production
+Maharashtra,AHMEDNAGAR,1997,Autumn,Maize,1,3
+Maharashtra,AHMEDNAGAR,1997,Kharif,Maize,4400,12760
+Maharashtra,AHMEDNAGAR,1997,Kharif,Rice,5900,17700
+Maharashtra,AHMEDNAGAR,1997,Kharif,Sugarcane,45900,3213000
+Maharashtra,AHMEDNAGAR,1997,Rabi,Maize,6200,17980
+Maharashtra,AHMEDNAGAR,1997,Rabi,Wheat,79700,247070
+Maharashtra,AHMEDNAGAR,1997,Summer,Maize,1100,3190
+Maharashtra,AHMEDNAGAR,1997,Whole Year,Cotton,98,39.2
+Maharashtra,AHMEDNAGAR,1998,Kharif,Cotton,12100,4840
+Maharashtra,AHMEDNAGAR,1998,Kharif,Maize,5800,16820
+Maharashtra,AHMEDNAGAR,1998,Kharif,Rice,5600,16800
+Maharashtra,AHMEDNAGAR,1998,Kharif,Sugarcane,59600,4172000
+Maharashtra,AHMEDNAGAR,1998,Rabi,Maize,7900,22910
+Maharashtra,AHMEDNAGAR,1998,Rabi,Wheat,124400,385640
+Maharashtra,AHMEDNAGAR,1998,Summer,Maize,1500,4350
+Maharashtra,AHMEDNAGAR,1999,Kharif,Cotton,15000,6000
+Maharashtra,AHMEDNAGAR,1999,Kharif,Maize,6400,18560
+Maharashtra,AHMEDNAGAR,1999,Kharif,Rice,5700,17100
+Maharashtra,AHMEDNAGAR,1999,Rabi,Maize,8800,25520
+Maharashtra,AHMEDNAGAR,1999,Rabi,Wheat,127000,393700
+Maharashtra,AHMEDNAGAR,1999,Summer,Maize,1700,4930
+Maharashtra,AHMEDNAGAR,1999,Whole Year,Sugarcane,66600,4662000
+Maharashtra,AHMEDNAGAR,2000,Kharif,Cotton,15700,6280
+Maharashtra,AHMEDNAGAR,2000,Kharif,Maize,7000,20300
+Maharashtra,AHMEDNAGAR,2000,Kharif,Rice,5500,16500
+Maharashtra,AHMEDNAGAR,2000,Rabi,Maize,14000,40600
+Maharashtra,AHMEDNAGAR,2000,Rabi,Wheat,94700,293570
+Maharashtra,AHMEDNAGAR,2000,Summer,Maize,1500,4350
+Maharashtra,AHMEDNAGAR,2000,Whole Year,Sugarcane,67100,4697000
+Maharashtra,AHMEDNAGAR,2001,Kharif,Cotton,13500,5400
+Maharashtra,AHMEDNAGAR,2001,Kharif,Maize,6400,18560
+Maharashtra,AHMEDNAGAR,2001,Kharif,Rice,7300,21900
+Maharashtra,AHMEDNAGAR,2001,Rabi,Maize,12300,35670
+Maharashtra,AHMEDNAGAR,2001,Rabi,Wheat,93800,290780
+Maharashtra,AHMEDNAGAR,2001,Summer,Maize,1500,4350
+Maharashtra,AHMEDNAGAR,2001,Whole Year,Sugarcane,52000,3640000
+Maharashtra,AHMEDNAGAR,2002,Kharif,Maize,7000,20300
+Maharashtra,AHMEDNAGAR,2002,Kharif,Rice,7400,22200
+Maharashtra,AHMEDNAGAR,2002,Rabi,Maize,11700,33930
+Maharashtra,AHMEDNAGAR,2002,Rabi,Wheat,70400,218240
+Maharashtra,AHMEDNAGAR,2002,Summer,Maize,1100,3190
+Maharashtra,AHMEDNAGAR,2002,Whole Year,Sugarcane,49400,3458000
+Maharashtra,AHMEDNAGAR,2003,Kharif,Cotton,10400,4160
+Maharashtra,AHMEDNAGAR,2003,Kharif,Maize,6700,19430
+Maharashtra,AHMEDNAGAR,2003,Kharif,Rice,7600,22800
+Maharashtra,AHMEDNAGAR,2003,Rabi,Maize,10500,30450
+Maharashtra,AHMEDNAGAR,2003,Rabi,Wheat,39200,121520
+Maharashtra,AHMEDNAGAR,2003,Whole Year,Sugarcane,31200,2184000
+Maharashtra,AHMEDNAGAR,2004,Kharif,Maize,11400,33060
+Maharashtra,AHMEDNAGAR,2004,Kharif,Rice,8000,24000
+Maharashtra,AHMEDNAGAR,2004,Rabi,Maize,10900,31610
+Maharashtra,AHMEDNAGAR,2004,Rabi,Wheat,89300,276830
+Maharashtra,AHMEDNAGAR,2004,Summer,Maize,3100,8990
+Maharashtra,AHMEDNAGAR,2004,Whole Year,Cotton,15900,6360
+Maharashtra,AHMEDNAGAR,2004,Whole Year,Sugarcane,17000,1190000
+Maharashtra,AHMEDNAGAR,2005,Kharif,Cotton,16600,6640
+Maharashtra,AHMEDNAGAR,2005,Kharif,Rice,800,2400
+Maharashtra,AHMEDNAGAR,2005,Kharif,Sugarcane,56600,3962000
+Maharashtra,AHMEDNAGAR,2005,Rabi,Wheat,103100,319610
+Maharashtra,AHMEDNAGAR,2006,Kharif,Cotton,20600,8240
+Maharashtra,AHMEDNAGAR,2006,Kharif,Maize,17900,51910
+Maharashtra,AHMEDNAGAR,2006,Kharif,Rice,8400,25200
+Maharashtra,AHMEDNAGAR,2006,Rabi,Maize,15300,44370
+Maharashtra,AHMEDNAGAR,2006,Rabi,Wheat,153900,477090
+Maharashtra,AHMEDNAGAR,2006,Summer,Maize,1200,3480
+Maharashtra,AHMEDNAGAR,2007,Kharif,Cotton,400,160
+Maharashtra,AHMEDNAGAR,2007,Kharif,Maize,236,684.4
+Maharashtra,AHMEDNAGAR,2007,Kharif,Rice,86,258
+Maharashtra,AHMEDNAGAR,2007,Rabi,Maize,125,362.5
+Maharashtra,AHMEDNAGAR,2007,Rabi,Wheat,1309,4058
+Maharashtra,AHMEDNAGAR,2007,Summer,Maize,11,31.9
+Maharashtra,AHMEDNAGAR,2007,Whole Year,Sugarcane,1333,93310
+Maharashtra,AHMEDNAGAR,2008,Kharif,Cotton,59300,23720
+Maharashtra,AHMEDNAGAR,2008,Kharif,Maize,22100,64090
+Maharashtra,AHMEDNAGAR,2008,Kharif,Rice,9300,27900
+Maharashtra,AHMEDNAGAR,2008,Kharif,Sugarcane,77500,5425000
+Maharashtra,AHMEDNAGAR,2008,Rabi,Maize,102,295.8
+Maharashtra,AHMEDNAGAR,2008,Rabi,Wheat,138200,428420
+Maharashtra,AHMEDNAGAR,2008,Whole Year,Sugarcane,77500,5425000
+Maharashtra,AHMEDNAGAR,2009,Kharif,Cotton,82700,33080
+Maharashtra,AHMEDNAGAR,2009,Kharif,Maize,38500,111650
+Maharashtra,AHMEDNAGAR,2009,Kharif,Rice,7400,22200
+Maharashtra,AHMEDNAGAR,2009,Kharif,Sugarcane,75600,5292000
+Maharashtra,AHMEDNAGAR,2009,Rabi,Maize,11600,33640
+Maharashtra,AHMEDNAGAR,2009,Rabi,Wheat,129500,401450
+Maharashtra,AHMEDNAGAR,2010,Kharif,Cotton,101700,40680
+Maharashtra,AHMEDNAGAR,2010,Kharif,Maize,45300,131370
+Maharashtra,AHMEDNAGAR,2010,Kharif,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2010,Kharif,Sugarcane,126000,8820000
+Maharashtra,AHMEDNAGAR,2010,Rabi,Maize,13200,38280
+Maharashtra,AHMEDNAGAR,2010,Rabi,Wheat,133700,414470
+Maharashtra,AHMEDNAGAR,2011,Kharif,Cotton,112000,44800
+Maharashtra,AHMEDNAGAR,2011,Kharif,Maize,46300,134270
+Maharashtra,AHMEDNAGAR,2011,Kharif,Rice,7900,23700
+Maharashtra,AHMEDNAGAR,2011,Rabi,Maize,9200,26680
+Maharashtra,AHMEDNAGAR,2011,Rabi,Wheat,48100,149110
+Maharashtra,AHMEDNAGAR,2011,Whole Year,Sugarcane,129500,9065000
+Maharashtra,AHMEDNAGAR,2012,Kharif,Cotton,96200,38480
+Maharashtra,AHMEDNAGAR,2012,Kharif,Maize,45000,130500
+Maharashtra,AHMEDNAGAR,2012,Kharif,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2012,Rabi,Maize,14700,42630
+Maharashtra,AHMEDNAGAR,2012,Rabi,Wheat,38900,120590
+Maharashtra,AHMEDNAGAR,2012,Summer,Maize,200,580
+Maharashtra,AHMEDNAGAR,2012,Whole Year,Sugarcane,115500,8085000
+Maharashtra,AHMEDNAGAR,2013,Kharif,Cotton,104700,41880
+Maharashtra,AHMEDNAGAR,2013,Kharif,Maize,61000,176900
+Maharashtra,AHMEDNAGAR,2013,Kharif,Rice,7900,23700
+Maharashtra,AHMEDNAGAR,2013,Rabi,Maize,20900,60610
+Maharashtra,AHMEDNAGAR,2013,Rabi,Wheat,51900,160890
+Maharashtra,AHMEDNAGAR,2013,Summer,Maize,1000,2900
+Maharashtra,AHMEDNAGAR,2013,Whole Year,Sugarcane,110800,7756000
+Maharashtra,AHMEDNAGAR,2014,Kharif,Cotton,102600,41040
+Maharashtra,AHMEDNAGAR,2014,Kharif,Maize,68100,197490
+Maharashtra,AHMEDNAGAR,2014,Kharif,Rice,8600,25800
+Maharashtra,AHMEDNAGAR,2014,Rabi,Maize,29400,85260
+Maharashtra,AHMEDNAGAR,2014,Rabi,Wheat,57200,177320
+Maharashtra,AHMEDNAGAR,2014,Summer,Maize,200,580
+Maharashtra,AHMEDNAGAR,2014,Whole Year,Sugarcane,122000,8540000
+Maharashtra,AHMEDNAGAR,2015,Kharif,Wheat,12000,36000
+Maharashtra,AHMEDNAGAR,2015,Rabi,Wheat,10000,32000
+Maharashtra,AHMEDNAGAR,2015,Whole Year,Wheat,8000,24800
+Maharashtra,AHMEDNAGAR,2015,Kharif,Rice,5000,15000
+Maharashtra,AHMEDNAGAR,2015,Rabi,Rice,7000,20300
+Maharashtra,AHMEDNAGAR,2015,Whole Year,Rice,6000,18600
+Maharashtra,AHMEDNAGAR,2015,Kharif,Maize,8000,21600
+Maharashtra,AHMEDNAGAR,2015,Rabi,Maize,9000,25200
+Maharashtra,AHMEDNAGAR,2015,Whole Year,Maize,10000,29000
+Maharashtra,AHMEDNAGAR,2015,Kharif,Cotton,15000,5700
+Maharashtra,AHMEDNAGAR,2015,Rabi,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2015,Whole Year,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2015,Kharif,Sugarcane,20000,1360000
+Maharashtra,AHMEDNAGAR,2015,Rabi,Sugarcane,15000,1080000
+Maharashtra,AHMEDNAGAR,2015,Whole Year,Sugarcane,22000,1540000
+Maharashtra,AHMEDNAGAR,2016,Kharif,Wheat,13000,40300
+Maharashtra,AHMEDNAGAR,2016,Rabi,Wheat,11000,33000
+Maharashtra,AHMEDNAGAR,2016,Whole Year,Wheat,9000,28800
+Maharashtra,AHMEDNAGAR,2016,Kharif,Rice,4500,13500
+Maharashtra,AHMEDNAGAR,2016,Rabi,Rice,8000,24000
+Maharashtra,AHMEDNAGAR,2016,Whole Year,Rice,7000,21700
+Maharashtra,AHMEDNAGAR,2016,Kharif,Maize,9000,25200
+Maharashtra,AHMEDNAGAR,2016,Rabi,Maize,10000,29000
+Maharashtra,AHMEDNAGAR,2016,Whole Year,Maize,11000,29700
+Maharashtra,AHMEDNAGAR,2016,Kharif,Cotton,16000,6400
+Maharashtra,AHMEDNAGAR,2016,Rabi,Cotton,17000,7140
+Maharashtra,AHMEDNAGAR,2016,Whole Year,Cotton,14000,5320
+Maharashtra,AHMEDNAGAR,2016,Kharif,Sugarcane,22000,1518000
+Maharashtra,AHMEDNAGAR,2016,Rabi,Sugarcane,18000,1278000
+Maharashtra,AHMEDNAGAR,2016,Whole Year,Sugarcane,24000,1680000
+Maharashtra,AHMEDNAGAR,2017,Kharif,Wheat,11500,34500
+Maharashtra,AHMEDNAGAR,2017,Rabi,Wheat,12000,38400
+Maharashtra,AHMEDNAGAR,2017,Whole Year,Wheat,10000,31000
+Maharashtra,AHMEDNAGAR,2017,Kharif,Rice,6000,18000
+Maharashtra,AHMEDNAGAR,2017,Rabi,Rice,5000,15500
+Maharashtra,AHMEDNAGAR,2017,Whole Year,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2017,Kharif,Maize,10000,28000
+Maharashtra,AHMEDNAGAR,2017,Rabi,Maize,8000,23200
+Maharashtra,AHMEDNAGAR,2017,Whole Year,Maize,9000,24300
+Maharashtra,AHMEDNAGAR,2017,Kharif,Cotton,17000,6460
+Maharashtra,AHMEDNAGAR,2017,Rabi,Cotton,15000,6000
+Maharashtra,AHMEDNAGAR,2017,Whole Year,Cotton,18000,7560
+Maharashtra,AHMEDNAGAR,2017,Kharif,Sugarcane,21000,1428000
+Maharashtra,AHMEDNAGAR,2017,Rabi,Sugarcane,16000,1152000
+Maharashtra,AHMEDNAGAR,2017,Whole Year,Sugarcane,20000,1400000
+Maharashtra,AHMEDNAGAR,2018,Kharif,Wheat,14000,43400
+Maharashtra,AHMEDNAGAR,2018,Rabi,Wheat,9000,27000
+Maharashtra,AHMEDNAGAR,2018,Whole Year,Wheat,11000,35200
+Maharashtra,AHMEDNAGAR,2018,Kharif,Rice,7000,21000
+Maharashtra,AHMEDNAGAR,2018,Rabi,Rice,4000,12400
+Maharashtra,AHMEDNAGAR,2018,Whole Year,Rice,8000,24000
+Maharashtra,AHMEDNAGAR,2018,Kharif,Maize,11000,30800
+Maharashtra,AHMEDNAGAR,2018,Rabi,Maize,10000,29000
+Maharashtra,AHMEDNAGAR,2018,Whole Year,Maize,8500,22950
+Maharashtra,AHMEDNAGAR,2018,Kharif,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2018,Rabi,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2018,Whole Year,Cotton,12000,4560
+Maharashtra,AHMEDNAGAR,2018,Kharif,Sugarcane,24000,1656000
+Maharashtra,AHMEDNAGAR,2018,Rabi,Sugarcane,20000,1420000
+Maharashtra,AHMEDNAGAR,2018,Whole Year,Sugarcane,23000,1610000
+Maharashtra,AHMEDNAGAR,2019,Kharif,Wheat,13500,40500
+Maharashtra,AHMEDNAGAR,2019,Rabi,Wheat,10500,33600
+Maharashtra,AHMEDNAGAR,2019,Whole Year,Wheat,9500,29450
+Maharashtra,AHMEDNAGAR,2019,Kharif,Rice,6000,18000
+Maharashtra,AHMEDNAGAR,2019,Rabi,Rice,5500,17050
+Maharashtra,AHMEDNAGAR,2019,Whole Year,Rice,7000,21000
+Maharashtra,AHMEDNAGAR,2019,Kharif,Maize,10000,28000
+Maharashtra,AHMEDNAGAR,2019,Rabi,Maize,9000,26100
+Maharashtra,AHMEDNAGAR,2019,Whole Year,Maize,10500,28350
+Maharashtra,AHMEDNAGAR,2019,Kharif,Cotton,17500,7000
+Maharashtra,AHMEDNAGAR,2019,Rabi,Cotton,15000,6300
+Maharashtra,AHMEDNAGAR,2019,Whole Year,Cotton,16500,6270
+Maharashtra,AHMEDNAGAR,2019,Kharif,Sugarcane,23000,1564000
+Maharashtra,AHMEDNAGAR,2019,Rabi,Sugarcane,19000,1368000
+Maharashtra,AHMEDNAGAR,2019,Whole Year,Sugarcane,21000,1470000
+Maharashtra,AHMEDNAGAR,2020,Kharif,Wheat,14000,43400
+Maharashtra,AHMEDNAGAR,2020,Rabi,Wheat,11000,33000
+Maharashtra,AHMEDNAGAR,2020,Whole Year,Wheat,10000,32000
+Maharashtra,AHMEDNAGAR,2020,Kharif,Rice,6500,19500
+Maharashtra,AHMEDNAGAR,2020,Rabi,Rice,5000,15500
+Maharashtra,AHMEDNAGAR,2020,Whole Year,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2020,Kharif,Maize,10500,29400
+Maharashtra,AHMEDNAGAR,2020,Rabi,Maize,9500,27550
+Maharashtra,AHMEDNAGAR,2020,Whole Year,Maize,11000,29700
+Maharashtra,AHMEDNAGAR,2020,Kharif,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2020,Rabi,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2020,Whole Year,Cotton,15000,5700
+Maharashtra,AHMEDNAGAR,2020,Kharif,Sugarcane,24000,1656000
+Maharashtra,AHMEDNAGAR,2020,Rabi,Sugarcane,20000,1420000
+Maharashtra,AHMEDNAGAR,2020,Whole Year,Sugarcane,23000,1610000
+Maharashtra,AHMEDNAGAR,2021,Kharif,Wheat,13000,39000
+Maharashtra,AHMEDNAGAR,2021,Rabi,Wheat,12000,37200
+Maharashtra,AHMEDNAGAR,2021,Whole Year,Wheat,10500,33600
+Maharashtra,AHMEDNAGAR,2021,Kharif,Rice,6000,18000
+Maharashtra,AHMEDNAGAR,2021,Rabi,Rice,5500,17050
+Maharashtra,AHMEDNAGAR,2021,Whole Year,Rice,7000,21000
+Maharashtra,AHMEDNAGAR,2021,Kharif,Maize,10000,28000
+Maharashtra,AHMEDNAGAR,2021,Rabi,Maize,9000,26100
+Maharashtra,AHMEDNAGAR,2021,Whole Year,Maize,10500,28350
+Maharashtra,AHMEDNAGAR,2021,Kharif,Cotton,17000,6800
+Maharashtra,AHMEDNAGAR,2021,Rabi,Cotton,15000,6300
+Maharashtra,AHMEDNAGAR,2021,Whole Year,Cotton,16000,6080
+Maharashtra,AHMEDNAGAR,2021,Kharif,Sugarcane,23000,1564000
+Maharashtra,AHMEDNAGAR,2021,Rabi,Sugarcane,19000,1368000
+Maharashtra,AHMEDNAGAR,2021,Whole Year,Sugarcane,21000,1470000
+Maharashtra,AHMEDNAGAR,2022,Kharif,Wheat,14000,43400
+Maharashtra,AHMEDNAGAR,2022,Rabi,Wheat,11000,33000
+Maharashtra,AHMEDNAGAR,2022,Whole Year,Wheat,10000,32000
+Maharashtra,AHMEDNAGAR,2022,Kharif,Rice,6500,19500
+Maharashtra,AHMEDNAGAR,2022,Rabi,Rice,5000,15500
+Maharashtra,AHMEDNAGAR,2022,Whole Year,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2022,Kharif,Maize,10500,29400
+Maharashtra,AHMEDNAGAR,2022,Rabi,Maize,9500,27550
+Maharashtra,AHMEDNAGAR,2022,Whole Year,Maize,11000,29700
+Maharashtra,AHMEDNAGAR,2022,Kharif,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2022,Rabi,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2022,Whole Year,Cotton,15000,5700
+Maharashtra,AHMEDNAGAR,2022,Kharif,Sugarcane,24000,1656000
+Maharashtra,AHMEDNAGAR,2022,Rabi,Sugarcane,20000,1420000
+Maharashtra,AHMEDNAGAR,2022,Whole Year,Sugarcane,23000,1610000
+Maharashtra,AHMEDNAGAR,2023,Kharif,Wheat,14000,43400
+Maharashtra,AHMEDNAGAR,2023,Rabi,Wheat,11000,33000
+Maharashtra,AHMEDNAGAR,2023,Whole Year,Wheat,10000,32000
+Maharashtra,AHMEDNAGAR,2023,Kharif,Rice,6500,19500
+Maharashtra,AHMEDNAGAR,2023,Rabi,Rice,5000,15500
+Maharashtra,AHMEDNAGAR,2023,Whole Year,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2023,Kharif,Maize,10500,29400
+Maharashtra,AHMEDNAGAR,2023,Rabi,Maize,9500,27550
+Maharashtra,AHMEDNAGAR,2023,Whole Year,Maize,11000,29700
+Maharashtra,AHMEDNAGAR,2023,Kharif,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2023,Rabi,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2023,Whole Year,Cotton,15000,5700
+Maharashtra,AHMEDNAGAR,2023,Kharif,Sugarcane,24000,1656000
+Maharashtra,AHMEDNAGAR,2023,Rabi,Sugarcane,20000,1420000
+Maharashtra,AHMEDNAGAR,2023,Whole Year,Sugarcane,23000,1610000
+Maharashtra,AHMEDNAGAR,2024,Kharif,Wheat,14000,43400
+Maharashtra,AHMEDNAGAR,2024,Rabi,Wheat,11000,33000
+Maharashtra,AHMEDNAGAR,2024,Whole Year,Wheat,10000,32000
+Maharashtra,AHMEDNAGAR,2024,Kharif,Rice,6500,19500
+Maharashtra,AHMEDNAGAR,2024,Rabi,Rice,5000,15500
+Maharashtra,AHMEDNAGAR,2024,Whole Year,Rice,7500,22500
+Maharashtra,AHMEDNAGAR,2024,Kharif,Maize,10500,29400
+Maharashtra,AHMEDNAGAR,2024,Rabi,Maize,9500,27550
+Maharashtra,AHMEDNAGAR,2024,Whole Year,Maize,11000,29700
+Maharashtra,AHMEDNAGAR,2024,Kharif,Cotton,18000,7200
+Maharashtra,AHMEDNAGAR,2024,Rabi,Cotton,16000,6720
+Maharashtra,AHMEDNAGAR,2024,Whole Year,Cotton,15000,5700
+Maharashtra,AHMEDNAGAR,2024,Kharif,Sugarcane,24000,1656000
+Maharashtra,AHMEDNAGAR,2024,Rabi,Sugarcane,20000,1420000
+Maharashtra,AHMEDNAGAR,2024,Whole Year,Sugarcane,23000,1610000

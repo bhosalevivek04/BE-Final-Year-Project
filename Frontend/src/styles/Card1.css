@@ -1,0 +1,84 @@
+/* Card1.css */
+
+/* Dashboard Container */
+.dashboard-container {
+    position: relative;
+    background: url('/assets/background4.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Cards Grid Container */
+  .cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    height: 242px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: #faf7f7;
+    transform: translateY(-5px);
+  }
+  
+  /* Card Content Layout */
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Card Description */
+  .card-description {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* "Click Here" Button */
+  .clickhere {
+    background-color: #23b930ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .clickhere:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Responsive Layout for Smaller Screens */
+  @media (max-width: 768px) {
+    .cards-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

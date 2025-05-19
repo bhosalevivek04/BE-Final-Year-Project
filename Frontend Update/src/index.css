@@ -1,0 +1,120 @@
+/* Ensuring the body and main content area take up full height */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body fills the viewport */
+  }
+  .ant-menu-item-selected{
+    background: '#22b13a', 
+  }
+  /* The main content wrapper */
+  .main {
+    flex-grow: 1;  /* This allows the main content to expand and take available space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #7fce50; /* Earthy green color */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+
+
+  :root {
+    --max-width: 1600px;
+    --font-family: "Nunito", sans-serif;
+    --header-height: 70px;
+    --footer-height: 70px;
+    --hf-height: 140px;
+  }
+  
+  html,
+  body {
+    max-width: 100%;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .underlined-link {
+    text-decoration: underline !important;
+  }
+  .logo {
+    cursor: pointer;
+    width: 171px;
+  }
+  .app-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 0px 20px !important;
+    height: var(--header-height);
+  }
+  .app-header-content {
+    height: 100%;
+    max-width: var(--max-width);
+    margin: auto !important;
+  }
+  .app-container {
+    background-color: var(--background) !important;
+    min-height: calc(100dvh - var(--header-height)) !important;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0px 20px;
+    padding-top: var(--header-height) !important;
+  }
+  .app-footer {
+    height: var(--footer-height);
+    padding: 24px 20px !important;
+  }
+  .app-footer-content {
+    max-width: var(--max-width);
+    margin: auto;
+  }
+  
+  .full-height {
+    min-height: calc(100dvh - var(--hf-height));
+  }
+  .full-height-with-footer {
+    min-height: calc(100dvh - var(--footer-height));
+  }
+  .full-height-with-header {
+    min-height: calc(100dvh - var(--header-height));
+  }
+  
+  .text-center {
+    text-align: center;
+    margin: auto;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+
+  
