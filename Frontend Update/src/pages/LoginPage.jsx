@@ -33,6 +33,7 @@ const LoginPage = () => {
     try {
       const response = await axios.post('http://localhost:5000/api/farmers/login', loginData, {
         headers: { 'Content-Type': 'application/json' },
+        withCredentials: true,
       });
 
       if (response.data.token) {
