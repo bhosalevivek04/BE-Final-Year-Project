@@ -1,328 +1,15 @@
-// import React, { useState } from 'react';
-// import axios from 'axios';
-// import '../styles/SoilAnalysisForm.css';
-// import { useNavigate } from 'react-router-dom';
-
-// const YieldProductionForm = () => {
-//   const navigate = useNavigate();
-
-//   const [formData, setFormData] = useState({
-//     name: '',
-//     phoneNumber: '',
-//     cropType: '',
-//     season: '',
-//     area: '',
-//     soilType: '',
-//     city: '',
-//     latitude: '',
-//     longitude: '',
-//     temperature: '',
-//     date: new Date().getFullYear(),
-//     age: '',
-    
-//   });
-
-//   const [analysisData, setAnalysisData] = useState(null);
-//   const [isSubmitted, setIsSubmitted] = useState(false);
-//   const [isPhoneSubmitted, setIsPhoneSubmitted] = useState(false);
-  
-
-//   const cropTypes = ['Maize', 'Wheat', 'Cotton', 'Rice', 'Sugarcane'];
-//   const seasons = ['Rabi', 'Kharif', 'Whole Year'];
-//   const soilTypes = ['Red', 'Black', 'Alluvial'];
-
-//   const handleInputChange = (e) => {
-//     const { name, value } = e.target;
-    
-//     // Validation for negative numbers
-//     if (name === 'area' || name === 'age') {
-//       if (parseFloat(value) < 0) return;
-//     }
-
-//     setFormData(prevState => ({
-//       ...prevState,
-//       [name]: value
-//     }));
-//   };
-
-//   const getCurrentLocation = () => {
-//     if (navigator.geolocation) {
-//       navigator.geolocation.getCurrentPosition(
-//         (position) => {
-//           // Get weather data using coordinates
-//           fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&appid=d887d60da51df1eb3236014a853b63bc`)
-//             .then(res => res.json())
-
-//             .then(data => {
-//               setFormData(prevState => ({
-//                 ...prevState,
-//                 latitude: position.coords.latitude,
-//                 longitude: position.coords.longitude,
-//                 temperature: data.main.temp
-//               }));
-//             })
-//             .catch(error => {
-//               console.error("Error fetching temperature:", error);
-//               setFormData(prevState => ({
-//                 ...prevState,
-//                 latitude: position.coords.latitude,
-//                 longitude: position.coords.longitude
-//               }));
-//             });
-//         },
-//         (error) => {
-//           console.error("Error getting location:", error);
-//           alert("Unable to retrieve location. Please check your device settings.");
-//         }
-//       );
-//     } else {
-//       alert("Geolocation is not supported by this browser.");
-//     }
-//   };
-
-//   const handleDateClick = () => {
-//     setFormData(prevState => ({
-//       ...prevState,
-//       date: new Date().getFullYear()
-//     }));
-//   };
-
-//   const fetchCoordinatesFromCity = async (cityName) => {
-//     try {
-//       const response = await fetch(`https://nominatim.openstreetmap.org/search?q=${cityName}&format=json&limit=1`);
-//       const data = await response.json();
-      
-
-//       if (data.length > 0) {
-//         const { lat, lon } = data[0];
-//         // Fetch weather data using the coordinates
-//         fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=d887d60da51df1eb3236014a853b63bc`)
-//           .then(res => res.json())
-
-//           .then(weatherData => {
-//             setFormData(prevState => ({
-//               ...prevState,
-//               latitude: lat,
-//               longitude: lon,
-//               temperature: weatherData.main.temp
-//             }));
-//           });
-//       } else {
-//         alert("City not found. Please check the spelling and try again.");
-//       }
-//     } catch (error) {
-//       console.error("Error fetching coordinates:", error);
-//       alert("Error fetching coordinates. Please try again.");
-//     }
-//   };
-
-//   const handleCitySubmit = (e) => {
-//     e.preventDefault();
-//     if (formData.city) {
-//       fetchCoordinatesFromCity(formData.city);
-//     }
-//   };
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-//     try {
-//       const response = await axios.post('http://localhost:5000/api/yield-production', formData);
-//       console.log('Form submitted successfully:', response.data);
-//       setAnalysisData(response.data);
-//       alert('Form submitted successfully!');
-//       setIsSubmitted(true);
-//     } catch (error) {
-//       console.error('Error submitting form:', error);
-//       alert('Error submitting form. Please try again.');
-//     }
-//   };
-
-//   const handlePhoneSubmit = async () => {
-//     try {
-//       const response = await axios.post('http://localhost:5000/api/submit-phone', {
-//         phoneNumber: formData.phoneNumber,
-//         name: formData.name
-//       });
-//       console.log('Phone number submitted successfully:', response.data);
-//       alert('Phone number submitted successfully!');
-//       setIsPhoneSubmitted(true);
-//     } catch (error) {
-//       console.error('Error submitting phone number:', error);
-//       alert('Error submitting phone number. Please try again.');
-//     }
-//   };
-
-//   return (
-//     <div className="form-container">
-//       <h2 className="form-title">Yield Production Form</h2>
-//       <form onSubmit={handleSubmit}>
-//         <div className="form-group">
-//           <label>Crop Type</label>
-//           <select
-//             name="cropType"
-//             value={formData.cropType}
-//             onChange={handleInputChange}
-//             required
-//             disabled={isSubmitted || isPhoneSubmitted}
-//           >
-//             <option value="">Select Crop Type</option>
-//             {cropTypes.map(crop => (
-//               <option key={crop} value={crop}>{crop}</option>
-//             ))}
-//           </select>
-//         </div>
-
-//         <div className="form-group">
-//           <label>Season</label>
-//           <select
-//             name="season"
-//             value={formData.season}
-//             onChange={handleInputChange}
-//             required
-//             disabled={isSubmitted || isPhoneSubmitted}
-//           >
-//             <option value="">Select Season</option>
-//             {seasons.map(season => (
-//               <option key={season} value={season}>{season}</option>
-//             ))}
-//           </select>
-//         </div>
-
-//         <div className="form-group">
-//           <label>Area (in hectare)</label>
-//           <input
-//             type="number"
-//             name="area"
-//             value={formData.area}
-//             onChange={handleInputChange}
-//             min="0"
-//             step="0.01"
-//             required
-//             disabled={isSubmitted || isPhoneSubmitted}
-//           />
-//         </div>
-
-//         <div className="form-group">
-//           <label>Soil Type</label>
-//           <select
-//             name="soilType"
-//             value={formData.soilType}
-//             onChange={handleInputChange}
-//             required
-//             disabled={isSubmitted || isPhoneSubmitted}
-//           >
-//             <option value="">Select Soil Type</option>
-//             {soilTypes.map(soil => (
-//               <option key={soil} value={soil}>{soil}</option>
-//             ))}
-//           </select>
-//         </div>
-
-//         <div className="form-group">
-//           <label>City</label>
-//           <div style={{ display: 'flex', gap: '10px' }}>
-//             <input
-//               type="text"
-//               name="city"
-//               value={formData.city}
-//               onChange={handleInputChange}
-//               placeholder="Enter city name"
-//               disabled={isSubmitted || isPhoneSubmitted}
-//             />
-//             {/* <button
-//               type="button"
-//               onClick={handleCitySubmit}
-//               className="submit-btn"
-//               style={{ padding: '5px 10px' }}
-//             >
-//               Get Location
-//             </button> */}
-//           </div>
-//         </div>
-
-//         <div className="form-group">
-//           <button
-//             type="button"
-//             onClick={getCurrentLocation}
-//             className="submit-btn"
-//             style={{ marginBottom: '10px' }}
-//           >
-//             Get Current Location & Temperature
-//           </button>
-//           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-//             <input
-//               type="text"
-//               name="latitude"
-//               value={formData.latitude}
-//               placeholder="Latitude"
-//               readOnly
-//             />
-//             <input
-//               type="text"
-//               name="longitude"
-//               value={formData.longitude}
-//               placeholder="Longitude"
-//               readOnly
-//             />
-//           </div>
-//         </div>
-
-//         <div className="form-group">
-//           <label>Temperature (°C)</label>
-//           <input
-//             type="text"
-//             name="temperature"
-//             value={formData.temperature}
-//             placeholder="Auto-filled from location"
-//             readOnly
-//           />
-//         </div>
-
-//         <div className="form-group">
-//           <label>Date (Year)</label>
-//           <input
-//             type="number"
-//             name="date"
-//             value={formData.date}
-//             onClick={handleDateClick}
-//             readOnly
-//           />
-//         </div>
-
-//         <div className="form-group">
-//           <label>Age (in Days)</label>
-//           <input
-//             type="number"
-//             name="age"
-//             value={formData.age}
-//             onChange={handleInputChange}
-//             min="0"
-//             required
-//             disabled={isSubmitted || isPhoneSubmitted}
-//           />
-//         </div>
-
-//         <button type="submit" className="submit-btn" disabled={isSubmitted}>
-//           Submit
-//         </button>
-//       </form>
-//       {analysisData && (
-//         <div className="analysis-data">
-//           <h2>Analysis Data</h2>
-//           <p>Insights: {analysisData.insights}</p>
-//           <p>Message: {analysisData.message}</p>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default YieldProductionForm;
-
-
 import React, { useState } from 'react';
+import { Form, Input, Select, Button, Typography, Space, Alert } from 'antd';
 import axios from 'axios';
+import { EnvironmentOutlined } from '@ant-design/icons';
 import '../styles/SoilAnalysisForm.css';
+
+const { Title } = Typography;
+const { Option } = Select;
+
+const cropTypes = ['Wheat', 'Bajra', 'Rice', 'Maize'];
+const seasons = ['Rabi', 'Kharif', 'Whole Year'];
+const soilTypes = ['Red', 'Black', 'Alluvial'];
 
 const YieldProductionForm = () => {
   const [formData, setFormData] = useState({
@@ -330,187 +17,276 @@ const YieldProductionForm = () => {
     season: '',
     area: '',
     soilType: '',
-    cropYear: new Date().getFullYear(),
-    daysSincePlanting: ''
+    city: '',
+    latitude: '',
+    longitude: '',
+    temperature: '',
+    date: new Date().toISOString().slice(0, 10), // YYYY-MM-DD
+    age: ''
   });
 
   const [prediction, setPrediction] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const cropTypes = ['Maize', 'Wheat', 'Cotton', 'Rice', 'Sugarcane'];
-  const seasons = ['Rabi', 'Kharif', 'Whole Year'];
-  const soilTypes = ['Red', 'Black', 'Alluvial'];
+  const ahmednagarCities = [
+    "Ahmednagar", "Akole ", "Bhandardara", "Bhingar", "Deolali Pravara",
+    "Ghulewadi", "Guruwar Peth", "Jamkhed ", "Kopargaon", "Kopargaon ",
+    "Loni, Ahmednagar", "Meherabad", "Miri, Ahmednagar", "Nagapur", "Nagar ",
+    "Nevasa", "Nevasa ", "Nighoj", "Parner ", "Pathardi", "Pathardi ",
+    "Puntamba", "Rahata ", "Rahta Pimplas", "Rahuri", "Rahuri ", "Sangamner",
+    "Shevgaon", "Shevgaon ", "Shirdi", "Shrigonda", "Shrigonda ",
+    "Shrirampur", "Shrirampur (Rural)", "Shrirampur ", "Siddhatek", "Singnapur",
+    "Takali Dhokeshwar", "Tisgaon"
+  ];
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    
-    if (name === 'area' || name === 'daysSincePlanting') {
-      if (parseFloat(value) < 0) return;
-    }
-
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
+  const handleInputChange = (name, value) => {
+    if ((name === 'area' || name === 'age') && parseFloat(value) < 0) return;
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-    
-    try {
-      const response = await axios.post('http://localhost:5001/api/predict-yield', {
-        Crop_Year: formData.cropYear,
-        Season: formData.season,
-        Crop: formData.cropType,
-        Area: formData.area,
-        Soil_Type: formData.soilType,
-        days_since_planting: formData.daysSincePlanting || null
-      });
+  const getCurrentLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&appid=d887d60da51df1eb3236014a853b63bc`)
+            .then((res) => res.json())
+            .then((data) => {
+              setFormData((prevState) => ({
+                ...prevState,
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+                temperature: data.main.temp,
+              }));
+            })
+            .catch((error) => console.error('Error fetching temperature:', error));
+        },
+        (error) => alert('Unable to retrieve location. Please check your device settings.')
+      );
+    } else {
+      alert('Geolocation is not supported by this browser.');
+    }
+  };
 
+  const handleSubmit = async () => {
+    // Simple validation
+    const requiredFields = [
+      'cropType', 'season', 'area', 'soilType', 'city',
+      'latitude', 'longitude', 'temperature', 'date', 'age'
+    ];
+    for (const field of requiredFields) {
+      if (!formData[field] || formData[field] === '') {
+        alert(`Please fill the ${field} field.`);
+        setLoading(false);
+        return;
+      }
+    }
+
+    setLoading(true);
+    try {
+      const response = await axios.post('http://localhost:5000/api/yield-production', {
+        cropType: formData.cropType,
+        season: formData.season,
+        area: parseFloat(formData.area),
+        soilType: formData.soilType,
+        city: formData.city,
+        latitude: parseFloat(formData.latitude),
+        longitude: parseFloat(formData.longitude),
+        temperature: parseFloat(formData.temperature),
+        date: formData.date,
+        age: parseInt(formData.age)
+      });
       setPrediction(response.data);
     } catch (error) {
-      console.error('Prediction error:', error);
       alert('Error getting prediction. Please check inputs.');
     }
-    setIsLoading(false);
+    setLoading(false);
   };
 
   return (
-    <div className="form-container">
-      <h2 className="form-title">Crop Yield Prediction</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Crop Type</label>
-          <select
-            name="cropType"
-            value={formData.cropType}
-            onChange={handleInputChange}
-            required
-          >
-            <option value="">Select Crop</option>
-            {cropTypes.map(crop => (
-              <option key={crop} value={crop}>{crop}</option>
-            ))}
-          </select>
-        </div>
+    <div className="form-container" style={{ maxWidth: 420, margin: "0 auto" }}>
+      <Title level={2} className="form-title" style={{ textAlign: "center" }}>
+        Crop Yield Prediction
+      </Title>
+      {!prediction ? (
+        <Form layout="vertical" onFinish={handleSubmit} size="large" style={{ width: "100%" }}>
+          <Form.Item label="Crop Type" required>
+            <Select
+              placeholder="Select Crop"
+              value={formData.cropType}
+              onChange={(value) => handleInputChange('cropType', value)}
+              style={{ width: "100%" }}
+              size="large"
+            >
+              {cropTypes.map((crop) => (
+                <Option key={crop} value={crop}>{crop}</Option>
+              ))}
+            </Select>
+          </Form.Item>
 
-        <div className="form-group">
-          <label>Season</label>
-          <select
-            name="season"
-            value={formData.season}
-            onChange={handleInputChange}
-            required
-          >
-            <option value="">Select Season</option>
-            {seasons.map(season => (
-              <option key={season} value={season}>{season}</option>
-            ))}
-          </select>
-        </div>
+          <Form.Item label="Season" required>
+            <Select
+              placeholder="Select Season"
+              value={formData.season}
+              onChange={(value) => handleInputChange('season', value)}
+              style={{ width: "100%" }}
+              size="large"
+            >
+              {seasons.map((season) => (
+                <Option key={season} value={season}>{season}</Option>
+              ))}
+            </Select>
+          </Form.Item>
 
-        <div className="form-group">
-          <label>Area (hectares)</label>
-          <input
-            type="number"
-            name="area"
-            value={formData.area}
-            onChange={handleInputChange}
-            min="0"
-            step="0.01"
-            required
-          />
-        </div>
+          <Form.Item label="Area (hectares)" required>
+            <Input
+              type="number"
+              min={0}
+              step={0.01}
+              placeholder="Enter area"
+              value={formData.area}
+              onChange={(e) => handleInputChange('area', e.target.value)}
+              style={{ width: "100%" }}
+              size="large"
+            />
+          </Form.Item>
 
-        <div className="form-group">
-          <label>Soil Type</label>
-          <select
-            name="soilType"
-            value={formData.soilType}
-            onChange={handleInputChange}
-            required
-          >
-            <option value="">Select Soil Type</option>
-            {soilTypes.map(soil => (
-              <option key={soil} value={soil}>{soil}</option>
-            ))}
-          </select>
-        </div>
+          <Form.Item label="Soil Type" required>
+            <Select
+              placeholder="Select Soil Type"
+              value={formData.soilType}
+              onChange={(value) => handleInputChange('soilType', value)}
+              style={{ width: "100%" }}
+              size="large"
+            >
+              {soilTypes.map((soil) => (
+                <Option key={soil} value={soil}>{soil}</Option>
+              ))}
+            </Select>
+          </Form.Item>
 
-        <div className="form-group">
-          <label>Crop Year</label>
-          <input
-            type="number"
-            name="cropYear"
-            value={formData.cropYear}
-            onChange={handleInputChange}
-            min="1997"
-            max="2030"
-            required
-          />
-        </div>
+          <Form.Item label="City" required>
+            <Select
+              showSearch
+              placeholder="Select city"
+              value={formData.city}
+              onChange={(value) => handleInputChange('city', value)}
+              filterOption={(input, option) =>
+                option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+              }
+              style={{ width: "100%" }}
+              size="large"
+            >
+              {ahmednagarCities.map((city) => (
+                <Option key={city} value={city}>{city}</Option>
+              ))}
+            </Select>
+          </Form.Item>
 
-        <div className="form-group">
-          <label>Days Since Planting</label>
-          <input
-            type="number"
-            name="daysSincePlanting"
-            value={formData.daysSincePlanting}
-            onChange={handleInputChange}
-            min="0"
-            placeholder="For precise irrigation advice"
-          />
-        </div>
+          <Form.Item>
+            <Button
+              type="primary"
+              icon={<EnvironmentOutlined />}
+              onClick={getCurrentLocation}
+              block
+              style={{ marginBottom: 8 }}
+              size="large"
+            >
+              Get Current Location & Temperature
+            </Button>
+          </Form.Item>
 
-        <button type="submit" className="submit-btn" disabled={isLoading}>
-          {isLoading ? 'Predicting...' : 'Predict Yield'}
-        </button>
-      </form>
+          <Space style={{ width: "100%", marginBottom: 16 }}>
+            <Input
+              placeholder="Latitude"
+              value={formData.latitude}
+              readOnly
+              style={{ width: "49%" }}
+              size="large"
+            />
+            <Input
+              placeholder="Longitude"
+              value={formData.longitude}
+              readOnly
+              style={{ width: "49%" }}
+              size="large"
+            />
+          </Space>
 
-      {prediction && (
+          <Form.Item label="Temperature (°C)">
+            <Input
+              value={formData.temperature}
+              placeholder="Auto-filled from location"
+              readOnly
+              style={{ width: "100%" }}
+              size="large"
+            />
+          </Form.Item>
+
+          <Form.Item label="Date">
+            <Input
+              type="date"
+              value={formData.date}
+              onChange={e => handleInputChange('date', e.target.value)}
+              style={{ width: "100%" }}
+              size="large"
+            />
+          </Form.Item>
+
+          <Form.Item label="Age (in Days)" required>
+            <Input
+              type="number"
+              min={0}
+              placeholder="Enter age in days"
+              value={formData.age}
+              onChange={(e) => handleInputChange('age', e.target.value)}
+              style={{ width: "100%" }}
+              size="large"
+            />
+          </Form.Item>
+
+          <Form.Item>
+            <Button
+              type="primary"
+              htmlType="submit"
+              loading={loading}
+              block
+              size="large"
+              style={{ fontWeight: 600 }}
+            >
+              {loading ? 'Predicting...' : 'Predict Yield'}
+            </Button>
+          </Form.Item>
+        </Form>
+      ) : (
         <div className="prediction-results">
-          <h3>Prediction Results</h3>
-          <div className="prediction-card">
-            <h4>Yield Estimate</h4>
-            <p>
-              <strong>{prediction.prediction.crop}</strong> in <strong>{prediction.prediction.season}</strong> season
-            </p>
-            <p className="yield-value">
-              {prediction.prediction.yield_tonnes.toLocaleString()} tonnes
-            </p>
-          </div>
-
-          <div className="irrigation-card">
-            <h4>Irrigation Advice</h4>
-            {prediction.irrigation_recommendation.note ? (
-              <>
-                <p>{prediction.irrigation_recommendation.note}</p>
-                <ul>
-                  {prediction.irrigation_recommendation.all_phases.map((phase, i) => (
-                    <li key={i}>
-                      <strong>{phase.phase}</strong>: Irrigate every {phase.irrigation_frequency} days
-                      (Moisture: {phase.optimal_moisture.min}-{phase.optimal_moisture.max})
-                    </li>
-                  ))}
-                </ul>
-              </>
-            ) : (
-              <>
-                <p>
-                  Current phase: <strong>{prediction.irrigation_recommendation.current_phase}</strong>
-                </p>
-                <p>
-                  Irrigate every <strong>{prediction.irrigation_recommendation.irrigation_frequency} days</strong>
-                </p>
-                <p>
-                  Maintain moisture between <strong>
-                  {prediction.irrigation_recommendation.optimal_moisture.min}-{
-                  prediction.irrigation_recommendation.optimal_moisture.max}</strong>
-                </p>
-              </>
-            )}
-          </div>
+          <Alert
+            message="Prediction Results"
+            description={
+              <div>
+                <h4>Yield Estimate</h4>
+                {prediction.avgYieldPerHectare && prediction.totalYield ? (
+                  <>
+                    <p>
+                      <strong>Average Yield per Hectare:</strong> {prediction.avgYieldPerHectare} tonnes/ha
+                    </p>
+                    <p>
+                      <strong>Total Yield:</strong> {prediction.totalYield} tonnes
+                    </p>
+                  </>
+                ) : (
+                  <p>No prediction data available.</p>
+                )}
+                <h4>Insights</h4>
+                {prediction.insights ? (
+                  <p>{prediction.insights}</p>
+                ) : (
+                  <p>No insights available.</p>
+                )}
+              </div>
+            }
+            type="success"
+            showIcon
+          />
         </div>
       )}
     </div>
